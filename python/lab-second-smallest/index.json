@@ -1,0 +1,40 @@
+{
+    "type": "lab",
+    "title": "Second Smallest",
+    "description": "Find the second smallest integer in a user-given list",
+    "difficulty": "Beginner",
+    "time": 5,
+    "details": {
+        "steps": [
+            {
+                "title": "Second Smallest",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Check if this integer is the second smallest in the list",
+                        "file": "verify1.sh",
+                        "hint": "Please check whether there are more than two integers in the list",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/walrus",
+                    "python/for_loop",
+                    "python/if_else",
+                    "python/return_values"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "vnc-ubuntu:2204"
+    }
+}
